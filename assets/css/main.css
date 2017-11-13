@@ -1,67 +1,68 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-#home{
-    height: 100vh;
-    background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
-    background-image: url(../img/507.jpg);
-    background-position: center;
-}
-#myNavbar{
-    float: right;
-}
-#personsable-icon{
-    height:25vh;
-    width: 80%;
-}
-#hrname{
-    width: 55%;
-    padding: 5px;
-    height: 5px;
-}
-#cvdiana{
-    width: 20%;
-    padding: 12px;
-    margin-top: 10%;
-    background: transparent;
-    color: rgb(247, 6, 86);
-    border: 3px solid rgb(247, 6, 86);
-    border-radius: 25px;
-}
-#cvdiana:hover{ 
-    border: 2px solid rgb(247, 6, 86);
-    background: rgb(247, 6, 86);
-    color: white;
-}
-.titulo{
-    color: rgb(247, 6, 86);
-    font-weight: bold;
-   font-family: 'Lobster Two', cursive;
-    font-size: 50px;
-    margin-top: 15%;
-}
-.carrera{
-    color: white;
-    font-size: 30px;
-    margin-top: 20px;
-}
-.sobre_mi_title{
-    color: black;
-}
-#perfil{
-    border-radius: 700px;
-    height:300px ;
-}
-#abautme{
-    height: 100vh;
-}
-#habilidades{
-    height: 100vh;
-}
-#portafolio{
-    height: 100vh;
-}
-#contacto{
-    height: 100vh;
-}
+body {
+  margin: 0;
+  padding: 0; }
+
+#home {
+  height: 100vh;
+  background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
+  background-image: url(../img/507.jpg);
+  background-position: center; }
+
+#myNavbar {
+  float: right; }
+
+#personsable-icon {
+  height: 25vh;
+  width: 80%; }
+
+#hrname {
+  width: 55%;
+  padding: 5px;
+  height: 5px; }
+
+#cvdiana {
+  width: 20%;
+  padding: 12px;
+  margin-top: 10%;
+  background: transparent;
+  color: #f70656;
+  border: 3px solid #f70656;
+  border-radius: 25px; }
+
+#cvdiana:hover {
+  border: 2px solid #f70656;
+  background: #f70656;
+  color: white; }
+
+.titulo {
+  color: #f70656;
+  font-weight: bold;
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  margin-top: 15%; }
+
+.carrera {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px; }
+
+.sobre_mi_title {
+  color: black; }
+
+#perfil {
+  border-radius: 700px;
+  height: 300px; }
+
+#abautme {
+  height: 100vh; }
+
+#habilidades {
+  height: 100vh; }
+
+#portafolio {
+  height: 100vh; }
+
+#contacto {
+  height: 100vh; }
+
+/*# sourceMappingURL=main.css.map */
