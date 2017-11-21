@@ -1,68 +1,149 @@
-body {
-  margin: 0;
-  padding: 0; }
+.navbar {
+  background: black;
+  padding: 15px; }
+
+.navbar-scroll {
+  background-color: teal; }
 
 #home {
   height: 100vh;
-  background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
-  background-image: url(../img/507.jpg);
-  background-position: center; }
+  background: linear-gradient(to right, rgba(176, 218, 198, 0.322), rgba(16, 124, 23, 0.37)), url(../img/507.jpg);
+  background-position: center;
+  background-repet: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; }
+  #home #hrname {
+    width: 55%;
+    padding: 5px;
+    height: 5px; }
+  #home .titulo {
+    color: #f70656;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    margin-top: 15%; }
+  #home .carrera {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px; }
 
-#myNavbar {
-  float: right; }
+#aboutme .titulo {
+  margin-bottom: 40px; }
+  #aboutme .titulo hr {
+    height: 1px;
+    background: #f70656;
+    width: 60%;
+    border: 0.5px solid #f70656; }
+  #aboutme .titulo h1 {
+    position: relative;
+    margin-top: 0px;
+    color: black;
+    font-weight: bold; }
+  #aboutme .titulo #izquierda {
+    margin-right: -5px; }
+  #aboutme .titulo #derecha {
+    margin-left: -5px; }
+#aboutme #perfil {
+  height: 300px;
+  width: 300px; }
+#aboutme #svg {
+  height: 200px !important;
+  width: 200px !important; }
 
-#personsable-icon {
-  height: 25vh;
-  width: 80%; }
-
-#hrname {
-  width: 55%;
-  padding: 5px;
-  height: 5px; }
-
-#cvdiana {
-  width: 20%;
-  padding: 12px;
+.myButt {
+  outline: none;
+  border: none;
+  padding: 20px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  position: relative;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  width: 65%;
+  padding: 12px 20px;
   margin-top: 10%;
   background: transparent;
   color: #f70656;
   border: 3px solid #f70656;
   border-radius: 25px; }
 
-#cvdiana:hover {
-  border: 2px solid #f70656;
-  background: #f70656;
-  color: white; }
-
-.titulo {
+.one {
+  border-color: #f70656;
+  overflow: hidden;
   color: #f70656;
-  font-weight: bold;
-  font-family: 'Lobster Two', cursive;
-  font-size: 50px;
-  margin-top: 15%; }
+  font-weight: bold; }
+  .one .insider {
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    left: -135px;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg); }
+  .one:hover {
+    background-color: #f70656;
+    border-color: #fff;
+    color: #fff; }
+    .one:hover .insider {
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      left: 135px; }
 
-.carrera {
-  color: white;
-  font-size: 30px;
-  margin-top: 20px; }
+body {
+  margin: 0;
+  padding: 0; }
 
-.sobre_mi_title {
-  color: black; }
+#myNavbar {
+  float: right; }
+
+#espacio {
+  height: 10vh; }
+
+#aboutme h1 {
+  font-family: "Lobster Two", cursive; }
 
 #perfil {
   border-radius: 700px;
   height: 300px; }
 
-#abautme {
-  height: 100vh; }
-
 #habilidades {
   height: 100vh; }
+  #habilidades h1 {
+    font-family: "Lobster Two", cursive;
+    font-weight: bold; }
+  #habilidades #icon {
+    width: 60%; }
 
 #portafolio {
   height: 100vh; }
+  #portafolio h1 {
+    font-family: "Lobster Two", cursive;
+    font-weight: bold; }
+  #portafolio #proyectos {
+    width: 100%; }
 
 #contacto {
   height: 100vh; }
+  #contacto h1 {
+    font-family: "Lobster Two", cursive;
+    font-weight: bold; }
+
+footer {
+  background: black;
+  color: rgba(78, 76, 76, 0.904);
+  padding: 10vh; }
 
 /*# sourceMappingURL=main.css.map */

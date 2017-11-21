@@ -1,0 +1,36 @@
+.navbar{
+    background: black;
+    padding: 15px;
+}
+.navbar-scroll{
+    background-color: teal;
+
+}
+#home{
+    height: 100vh;
+    // background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
+    background: linear-gradient(to right, rgba(176, 218, 198, 0.322), rgba(16, 124, 23, 0.37)), url(../img/507.jpg);
+    background-position: center;
+     background-repet: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    #hrname{
+        width: 55%;
+        padding: 5px;
+        height: 5px;
+    }
+  
+    .titulo{
+        color: rgb(247, 6, 86);
+        font-weight: bold;
+        font-family: 'Lobster Two', cursive;
+        font-size: 50px;
+        margin-top: 15%;
+    }
+    .carrera{
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}

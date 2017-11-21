@@ -1,67 +1,62 @@
+@import 'parciales/_header.scss';
+@import 'parciales/_abaut.scss';
+@import 'parciales/_animaciones.scss';
 body{
     margin: 0;
     padding: 0;
 }
-#home{
-    height: 100vh;
-    background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
-    background-image: url(../img/507.jpg);
-    background-position: center;
+*{
+    // outline: 1px solid red;
 }
+$font-title:'Lobster Two', cursive;
 #myNavbar{
     float: right;
 }
-#personsable-icon{
-    height:25vh;
-    width: 80%;
+
+#espacio{
+    height: 10vh;
 }
-#hrname{
-    width: 55%;
-    padding: 5px;
-    height: 5px;
-}
-#cvdiana{
-    width: 20%;
-    padding: 12px;
-    margin-top: 10%;
-    background: transparent;
-    color: rgb(247, 6, 86);
-    border: 3px solid rgb(247, 6, 86);
-    border-radius: 25px;
-}
-#cvdiana:hover{ 
-    border: 2px solid rgb(247, 6, 86);
-    background: rgb(247, 6, 86);
-    color: white;
-}
-.titulo{
-    color: rgb(247, 6, 86);
-    font-weight: bold;
-   font-family: 'Lobster Two', cursive;
-    font-size: 50px;
-    margin-top: 15%;
-}
-.carrera{
-    color: white;
-    font-size: 30px;
-    margin-top: 20px;
-}
-.sobre_mi_title{
-    color: black;
+#aboutme{
+    h1{
+        font-family: $font-title;
+        
+    }
 }
 #perfil{
     border-radius: 700px;
     height:300px ;
 }
-#abautme{
-    height: 100vh;
-}
+
 #habilidades{
     height: 100vh;
+    h1{
+        font-family: $font-title;
+        font-weight: bold;
+    }
+    #icon{
+        width: 60%;
+    }
 }
 #portafolio{
+    h1{
+        font-family: $font-title;
+        font-weight: bold;
+    }
+    #proyectos{
+        width: 100%;
+        
+    }
     height: 100vh;
 }
 #contacto{
+    h1{
+        font-family: $font-title;
+        font-weight: bold;
+    }
     height: 100vh;
+}
+footer{
+    background: black;
+    color: rgba(78, 76, 76, 0.904);
+    padding: 10vh;
 }
