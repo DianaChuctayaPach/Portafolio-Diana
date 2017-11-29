@@ -5,9 +5,6 @@
 .navbar-scroll {
   background-color: teal; }
 
-* {
-  outline: 1px solid blue; }
-
 #home {
   height: 100vh;
   background: linear-gradient(to right, rgba(95, 38, 92, 0.452), rgba(16, 124, 23, 0.37)), url(../img/5318.jpg);
@@ -176,8 +173,8 @@
   #aboutme .titulo #derecha {
     margin-left: -5px; }
 #aboutme #perfil {
-  height: 300px;
-  width: 80%; }
+  height: 350px;
+  width: 50%; }
 #aboutme #svg {
   height: 200px !important;
   width: 200px !important; }
@@ -246,10 +243,6 @@ body {
 #aboutme h1 {
   font-family: "Lobster Two", cursive; }
 
-#perfil {
-  border-radius: 700px;
-  height: 300px; }
-
 #habilidades {
   background: linear-gradient(to right, rgba(103, 150, 177, 0.322), rgba(0, 0, 0, 0.507)), url(../img/645.jpg);
   background-position: center;
@@ -264,6 +257,13 @@ body {
   #habilidades img {
     margin-bottom: 20px; }
 
+#espacio_medio {
+  height: 6vh;
+  width: 100%; }
+
+#espacio_medio2 {
+  height: 8vh; }
+
 #portafolio h1 {
   font-family: "Lobster Two", cursive;
   font-weight: bold; }
@@ -273,6 +273,7 @@ body {
   margin-bottom: 20px; }
 
 .contacto {
+  text-align: center;
   padding-bottom: 10vh; }
   .contacto h1 {
     font-family: "Lobster Two", cursive;
@@ -286,14 +287,27 @@ body {
     color: #f70656; }
   .contacto #redes-sociales #i {
     border-radius: 25px;
-    background-color: #ad2452; }
+    background-color: #f70656; }
   .contacto #redes-sociales i {
     color: white;
     padding: 15px; }
+  .contacto button {
+    color: white !important;
+    background: #f70656;
+    padding: 10px 30px 5px 30px; }
+    .contacto button i {
+      color: white;
+      margin-right: 10px; }
 
 footer {
   background: black;
   color: rgba(78, 76, 76, 0.904);
-  padding: 10vh; }
+  padding: 6vh; }
+  footer #redes-sociales #i {
+    border-radius: 25px;
+    background-color: #f70656; }
+  footer #redes-sociales i {
+    color: white;
+    padding: 15px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -22,15 +22,11 @@ $font-title:'Lobster Two', cursive;
         
     }
 }
-#perfil{
-    border-radius: 700px;
-    height:300px ;
-}
+
 
 #habilidades{
     background: linear-gradient(to right, rgba(103, 150, 177, 0.322), rgba(0, 0, 0, 0.507)),  url(../img/645.jpg);
     //   background: linear-gradient(to right, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.295)), url("https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg");
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,6 +42,13 @@ $font-title:'Lobster Two', cursive;
     img{
         margin-bottom: 20px;
     }
+}
+#espacio_medio{
+    height: 6vh;
+    width: 100%;
+}
+#espacio_medio2{
+    height: 8vh;
 }
 #portafolio{
     h1{
@@ -63,6 +66,7 @@ $font-title:'Lobster Two', cursive;
 }
 .contacto{
     // height: 100vh;
+    text-align: center;
     padding-bottom: 10vh;
     h1{
         font-family: $font-title;
@@ -81,7 +85,7 @@ $font-title:'Lobster Two', cursive;
     #redes-sociales{
         #i{
             border-radius: 25px;
-        background-color: rgb(173, 36, 82);
+        background-color: rgb(247, 6, 86);
         }
         i{
             color: white;
@@ -89,10 +93,35 @@ $font-title:'Lobster Two', cursive;
             
         }
     }
+    button{
+        
+        color: white !important;
+        background: rgb(247, 6, 86);
+        padding: 10px 30px 5px 30px;
+        // margin-left: 50px;
+        i{
+            color: white;
+            margin-right: 10px;
+           
+        }
+    }
     
 }
+
+
 footer{
     background: black;
     color: rgba(78, 76, 76, 0.904);
-    padding: 10vh;
+    padding: 6vh;
+    #redes-sociales{
+        #i{
+            border-radius: 25px;
+        background-color: rgb(247, 6, 86);
+        }
+        i{
+            color: white;
+            padding: 15px;
+            
+        }
+    }
 }
