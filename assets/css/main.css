@@ -1,9 +1,13 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 .navbar {
-  background: black;
-  padding: 15px; }
+  background-color: transparent;
+  padding: 15px;
+  color: white  !important;
+  font-weight: bold; }
 
 .navbar-scroll {
-  background-color: teal; }
+  background-color: rgba(247, 6, 86, 0.555); }
 
 #home {
   height: 100vh;
@@ -157,28 +161,30 @@
     transform: translate3d(0, -50%, 0); }
   83.3%,95.96% {
     transform: translate3d(0, -25%, 0); } }
-#aboutme .titulo {
-  margin-bottom: 40px; }
-  #aboutme .titulo hr {
-    height: 1px;
-    background: #f70656;
-    width: 60%;
-    border: 0.5px solid #f70656; }
-  #aboutme .titulo h1 {
-    position: relative;
-    margin-top: 0px;
-    color: black;
-    font-weight: bold; }
-  #aboutme .titulo #izquierda {
-    margin-right: -5px; }
-  #aboutme .titulo #derecha {
-    margin-left: -5px; }
-#aboutme #perfil {
-  height: 350px;
-  width: 50%; }
-#aboutme #svg {
-  height: 200px !important;
-  width: 200px !important; }
+#aboutme {
+  text-align: center; }
+  #aboutme .titulo {
+    margin-bottom: 40px; }
+    #aboutme .titulo hr {
+      height: 1px;
+      background: #f70656;
+      width: 60%;
+      border: 0.5px solid #f70656; }
+    #aboutme .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: black;
+      font-weight: bold; }
+    #aboutme .titulo #izquierda {
+      margin-right: -5px; }
+    #aboutme .titulo #derecha {
+      margin-left: -5px; }
+  #aboutme #perfil {
+    height: 350px;
+    width: 50%; }
+  #aboutme #svg {
+    height: 200px !important;
+    width: 200px !important; }
 
 .myButt {
   outline: none;
@@ -231,11 +237,95 @@
       -ms-transition: all 0.3s ease;
       left: 135px; }
 
-body {
-  margin: 0;
-  padding: 0; }
+figure.snip1321 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  color: #000000;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em; }
+  figure.snip1321 a {
+    text-decoration: none; }
+  figure.snip1321 button {
+    background: transparent !important;
+    border-radius: 5px;
+    border: 2px solid #f70656 !important;
+    color: #f70656 !important; }
 
-*, *:after, *:before {
+figure.snip1321 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+figure.snip1321 figcaption {
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1; }
+
+figure.snip1321 h2,
+figure.snip1321 h4 {
+  margin: auto;
+  width: auto; }
+
+figure.snip1321 h2 {
+  font-weight: 600; }
+
+figure.snip1321 h4 {
+  font-weight: 400;
+  text-transform: uppercase; }
+
+figure.snip1321 i {
+  font-size: 32px; }
+
+figure.snip1321:after {
+  background-color: #131212e1;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0; }
+
+figure.snip1321 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1; }
+
+figure.snip1321:hover figcaption,
+figure.snip1321.hover figcaption {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
+
+figure.snip1321:hover:after,
+figure.snip1321.hover:after {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  opacity: 0.9; }
+
+*,
+*:after,
+*:before {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -284,6 +374,10 @@ body {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+body {
+  margin: 0;
+  padding: 0; }
+
 #myNavbar {
   float: right; }
 
@@ -316,7 +410,8 @@ body {
 
 #portafolio h1 {
   font-family: "Lobster Two", cursive;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 5vh; }
 #portafolio #proyectos {
   width: 100%; }
 #portafolio img {

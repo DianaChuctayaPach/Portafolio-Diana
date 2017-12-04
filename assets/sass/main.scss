@@ -1,65 +1,11 @@
 @import 'parciales/_header.scss';
 @import 'parciales/_abaut.scss';
 @import 'parciales/_animaciones.scss';
+@import 'parciales/_portafolio-hover.scss';
+@import 'parciales/_cargando.scss';
 body{
     margin: 0;
     padding: 0;
-}
-* , *:after, *:before{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-#contenedor_carga{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    color: white;
-    position: fixed;
-    -webkit-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    transition: all 2s ease;
-    z-index: 1000000;
-    
-}
-.cargando{
-    margin-top: 10%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-        // margin: auto;
-        
-        font-family: 'Lobster Two', cursive;
-        color: rgb(247, 6, 86);
-        font-size: 5vw;
-    }
-
-#carga{
-    border: 15px solid rgb(255, 253, 254);
-    border-top-color: rgb(247, 6, 86);
-    border-top-style: groove;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-
-    -webkit-animation: girar 2s linear infinite;
-    -o-animation: girar 2s linear infinite;
-    animation: girar 2s linear infinite;
-}
-@keyframes girar {
-    from{
-        transform:  rotate(0deg);
-    }
-    to{ transform: rotate(360deg);}
 }
 
 $font-title:'Lobster Two', cursive;
@@ -108,6 +54,7 @@ $font-title:'Lobster Two', cursive;
     h1{
         font-family: $font-title;
         font-weight: bold;
+        margin-top: 5vh;
     }
     #proyectos{
         width: 100%;
