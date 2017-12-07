@@ -22,6 +22,8 @@
     padding: 5px;
     height: 5px;
     margin-left: 25%; }
+  #home a:hover {
+    text-decoration: none; }
   #home .titulo {
     color: #f70656;
     font-weight: bold;
@@ -253,6 +255,8 @@ figure.snip1321 {
     border-radius: 5px;
     border: 2px solid #f70656 !important;
     color: #f70656 !important; }
+  figure.snip1321 #git {
+    margin-top: 60px; }
 
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
@@ -260,10 +264,14 @@ figure.snip1321 * {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
 
+figure.snip1321 img {
+  max-width: 100%;
+  vertical-align: top; }
+
 figure.snip1321 figcaption {
-  top: 50%;
-  left: 20px;
-  right: 20px;
+  top: 30%;
+  left: 10px;
+  right: 10px;
   position: absolute;
   opacity: 0;
   z-index: 1; }
@@ -448,11 +456,11 @@ footer {
   background: black;
   color: rgba(78, 76, 76, 0.904);
   padding: 6vh; }
-  footer #redes-sociales #i {
-    border-radius: 25px;
-    background-color: #f70656; }
   footer #redes-sociales i {
-    color: white;
-    padding: 15px; }
+    color: #f70656;
+    padding: 15px;
+    font-size: 30px; }
+  footer #redes-sociales i:hover {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */

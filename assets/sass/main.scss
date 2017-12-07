@@ -41,8 +41,14 @@ $font-title:'Lobster Two', cursive;
     }
     img{
         margin-bottom: 20px;
+        // filter:sepia(100%);
     }
+    // img:hover{
+    //     filter:  (100%);
+    // }
+  
 }
+
 #espacio_medio{
     height: 6vh;
     width: 100%;
@@ -106,6 +112,13 @@ $font-title:'Lobster Two', cursive;
            
         }
     }
+    // button:hover{
+    //     background: transparent;
+    //     color: rgb(247, 6, 86);
+    //     i:hover{
+    //         color: rgb(247, 6, 86);
+    //     }
+    // }
     
 }
 
@@ -115,14 +128,18 @@ footer{
     color: rgba(78, 76, 76, 0.904);
     padding: 6vh;
     #redes-sociales{
-        #i{
-            border-radius: 25px;
-        background-color: rgb(247, 6, 86);
-        }
+       
         i{
-            color: white;
+            color: rgb(247, 6, 86);
             padding: 15px;
+            font-size: 30px;
             
         }
+        i:hover{
+            color:white;
+            
+        }
+        
+        
     }
 }

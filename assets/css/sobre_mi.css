@@ -31,9 +31,9 @@
 }
 
 .mythings:hover{
-	background-color: white;
+	background-color: transparent;
 	color: #f75353;
-	border: 1px solid #f75353;
+	border: none;
 	text-shadow: none;
 	box-shadow: none;
 }
