@@ -73,7 +73,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #b9538f;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -119,8 +119,9 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #b9538f;
 	background-color: transparent;
+	
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
@@ -130,7 +131,7 @@ hr {
 .navbar-custom .nav li.active {
 	outline: 0;
 }
-.navbar-custom .nav li.active a {
+.navbar-custom .nav li.active a { 
 	background-color: rgba(255,255,255,.3);
 }
 .navbar-custom .nav li.active a:hover {
@@ -159,8 +160,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #b9538f;
+	border-color: #b9538f;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -173,8 +174,9 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #7bc3d1;
+	/* background: url(../img/intro-bg.jpg) no-repeat center top; */
+	background: linear-gradient(to right, rgba(145, 9, 104, 0.582), rgba(7, 55, 70, 0.534)), url(../img/intro-bg.jpg) no-repeat center top;
+	/* background-color: #b9538f; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -204,7 +206,13 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	/* background: linear-gradient(to right, rgba(145, 9, 104, 0.582), rgba(7, 55, 70, 0.534)) url(../img/skill.jpg) ; */
+	background: linear-gradient(to right, rgba(145, 9, 104, 0.582), rgba(7, 55, 70, 0.534)), url(../img/skill.jpg) no-repeat center top;
+	/* background-color: #b9538f; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 #skills h2 {
 	color: #fff;
@@ -270,7 +278,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	background: #b9538f;
 	color: #fff;
 	padding: 6px 14px;
 }
